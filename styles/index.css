@@ -1,0 +1,29 @@
+body {
+  font-family: "Fredoka", sans-serif;
+  color: #083d55;
+  background-color: #1e90ff;
+}
+
+h1.title {
+  padding-top: 25px;
+  text-align: center;
+}
+
+div.buttons {
+  padding-top: 25px;
+  text-align: center;
+}
+
+button {
+  height: 75px;
+  width: 300px;
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+  font-size: large;
+  border-radius: 10px;
+}
+
+div.devinfo {
+  padding-top: 50px;
+  text-align: center;
+}

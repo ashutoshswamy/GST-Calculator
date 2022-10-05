@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inter-State GST</title>
+    <link rel="icon" href="../assets/logo.png" />
+    <link rel="stylesheet" href="../styles/interstate.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" src="../js/interState.js"></script>
+  </head>
+  <body>
+    <h1 class="title">Inter-State GST Calculator</h1>
+    <div class="interstateinput">
+      <input
+        id="costpriceinput"
+        class="costpriceinput"
+        placeholder="Enter Cost Price"
+        type="number"
+      />
+      <input
+        id="discountinput"
+        class="discountinput"
+        placeholder="Enter Discount %"
+        type="number"
+      />
+      <input
+        id="gstinput"
+        class="gstinput"
+        placeholder="Enter GST %"
+        type="number"
+      />
+    </div>
+    <div class="resultdiv">
+      <h1 class="resultdiv" id="resultdiv"></h1>
+    </div>
+    <div class="interstatebutton">
+      <button class="interstatebutton" onclick="interState()">Calculate</button>
+    </div>
+    <div class="backbutton">
+      <a href="../index.html"
+        ><button class="backbutton">Back to Home Page</button></a
+      >
+    </div>
+  </body>
+</html>

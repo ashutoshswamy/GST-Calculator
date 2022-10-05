@@ -1,0 +1,68 @@
+body {
+  font-family: "Fredoka", sans-serif;
+  color: #083d55;
+  background-color: #1e90ff;
+}
+
+h1.title {
+  padding-top: 25px;
+  text-align: center;
+}
+
+div.interstateinput {
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+}
+
+input.costpriceinput {
+  text-align: center;
+  height: 30px;
+  width: 250px;
+  font-family: "Fredoka", sans-serif;
+}
+
+input.discountinput {
+  text-align: center;
+  height: 30px;
+  width: 250px;
+  font-family: "Fredoka", sans-serif;
+}
+
+input.gstinput {
+  text-align: center;
+  height: 30px;
+  width: 250px;
+  font-family: "Fredoka", sans-serif;
+}
+
+div.interstatebutton {
+  padding-top: 20px;
+  text-align: center;
+}
+
+button.interstatebutton {
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+  height: 40px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+div.resultdiv {
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Fredoka", sans-serif;
+}
+
+div.backbutton {
+  padding-top: 25px;
+  text-align: center;
+}
+
+button.backbutton {
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+  height: 40px;
+  width: 250px;
+  border-radius: 10px;
+}
