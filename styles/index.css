@@ -1,6 +1,5 @@
 body {
-  font-family: "Fredoka", sans-serif;
-  color: #083d55;
+  font-family: "Poppins", sans-serif;
   background-color: #1e90ff;
 }
 
@@ -18,12 +17,15 @@ button {
   height: 75px;
   width: 300px;
   text-align: center;
-  font-family: "Fredoka", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: large;
-  border-radius: 10px;
 }
 
 div.devinfo {
-  padding-top: 50px;
+  padding-top: 25px;
   text-align: center;
+}
+
+button {
+  margin: 10px;
 }

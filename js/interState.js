@@ -4,20 +4,6 @@ function interState() {
   const gstPercent = document.getElementById("gstinput").value;
   const resultdiv = document.getElementById("resultdiv");
 
-  if (
-    gstPercent != 5 ||
-    gstPercent != 12 ||
-    gstPercent != 18 ||
-    gstPercent != 28
-  ) {
-    resultdiv.innerHTML = "GST % can be only 5%, 12%, 18% or 28%";
-  } else if (discountPercent >= 100) {
-    resultdiv.innerHTML =
-      "You can't keep Discount % greater than or equal to 100";
-  } else if (discountPercent < 0) {
-    resultdiv.innerHTML = "You can't keep Discount % less than 0";
-  }
-
   const discount = (discountPercent / 100) * costPrice;
   const sellingPrice = costPrice - discount;
 

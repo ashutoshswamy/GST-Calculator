@@ -1,6 +1,5 @@
 body {
-  font-family: "Fredoka", sans-serif;
-  color: #083d55;
+  font-family: "Poppins", sans-serif;
   background-color: #1e90ff;
 }
 
@@ -11,28 +10,28 @@ h1.title {
 
 div.intrastateinput {
   text-align: center;
-  font-family: "Fredoka", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 input.costpriceinput {
   text-align: center;
   height: 30px;
   width: 250px;
-  font-family: "Fredoka", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 input.discountinput {
   text-align: center;
   height: 30px;
   width: 250px;
-  font-family: "Fredoka", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 input.gstinput {
   text-align: center;
   height: 30px;
   width: 250px;
-  font-family: "Fredoka", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 div.intrastatebutton {
@@ -42,16 +41,15 @@ div.intrastatebutton {
 
 button.intrastatebutton {
   text-align: center;
-  font-family: "Fredoka", sans-serif;
+  font-family: "Poppins", sans-serif;
   height: 40px;
   width: 250px;
-  border-radius: 10px;
 }
 
 div.resultdiv {
   text-align: center;
   padding-top: 10px;
-  font-family: "Fredoka", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 div.backbutton {
@@ -61,8 +59,15 @@ div.backbutton {
 
 button.backbutton {
   text-align: center;
-  font-family: "Fredoka", sans-serif;
+  font-family: "Poppins", sans-serif;
   height: 40px;
   width: 250px;
-  border-radius: 10px;
+}
+
+input {
+  margin: 10px;
+}
+
+select {
+  font-family: "Poppins", sans-serif;
 }

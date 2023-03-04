@@ -7,8 +7,10 @@
     <title>Intra-State GST</title>
     <link rel="icon" href="../assets/logo.png" />
     <link rel="stylesheet" href="../styles/intrastate.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
     <script type="text/javascript" src="../js/intraState.js"></script>
@@ -22,21 +24,24 @@
         placeholder="Enter Cost Price"
         type="number"
       />
+      <br />
       <input
         id="discountinput"
         class="discountinput"
         placeholder="Enter Discount %"
         type="number"
       />
-      <input
-        id="gstinput"
-        class="gstinput"
-        placeholder="Enter GST %"
-        type="number"
-      />
+      <br />
+      <label>Select GST %</label>
+      <select id="gstinput">
+        <option value="5">5%</option>
+        <option value="12">12%</option>
+        <option value="18">18%</option>
+        <option value="28">28%</option>
+      </select>
     </div>
     <div class="resultdiv">
-      <h1 class="resultdiv" id="resultdiv"></h1>
+      <h3 class="resultdiv" id="resultdiv"></h3>
     </div>
     <div class="intrastatebutton">
       <button class="intrastatebutton" onclick="intraState()">Calculate</button>
